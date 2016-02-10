@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
   background-color: #efefef;
+  margin: 0;
 }
 
 body {
@@ -13,11 +14,23 @@ h1{
 }
 
 ul {
-  text-align: 
+  text-align: center;
+  list-style-type: none;
+  color: #fff;
 }
-.info-box {
+.info-boxes {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
+.info-boxes li {
+  display: inline-block;
+  margin: 1 1 1 1;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+}
 *, *::before, *::after {
 	box-sizing: inherit;
 }
